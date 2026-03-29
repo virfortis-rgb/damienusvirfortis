@@ -2,3 +2,21 @@ i {
   color: black;
   font-size: 2rem;
 }
+
+.profile-img {
+  border-radius: 50%;
+  box-shadow: 0 0 0.2rem 0.2rem;
+  height: 16rem;
+  margin: 2rem;
+}
+
+.project-img {
+  height: 8rem;
+  width: 8rem;
+}
+
+footer {
+  background-image: url("mountain-footer.png");
+  background-size: cover;
+  height: 80vh;
+}

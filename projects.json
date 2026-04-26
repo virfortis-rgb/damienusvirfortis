@@ -67,7 +67,7 @@
     "title": "Wat wil Koos kyk?",
     "role": "Lead Developer",
     "description": "A website to help my father choose a movie to watch for movie night. He's name is Koos.",
-    "img_path": "./in_die_begin/indb.jpg",
+    "img_path": "./default.png",
     "links": {
       "github": "https://github.com/virfortis-rgb/wat-wil-koos-kyk",
       "live": "https://virfortis-rgb.github.io/wat-wil-koos-kyk/"

@@ -14,7 +14,10 @@ data.forEach((project) => {
   clone.querySelector('.title').textContent = project.title;
   clone.querySelector('.role').textContent = `@${project.role}`;
   const featuresContainer = clone.querySelector('.features');
-  if (project.features != null) {
+  const h6 = document.createElement('h6');
+  h6.textContent = "Features I worked on: ";
+  if (project.features.length != 0) {
+    featuresContainer.insertAdjacentElement('beforebegin', h6);
     project.features.forEach((feature) => {
       const span = document.createElement('span');
       span.classList.add('badge', 'text-bg-success', 'feature', 'text-wrap', 'me-1', 'mb-1');

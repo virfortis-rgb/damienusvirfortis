@@ -4,36 +4,39 @@
     "title": "Where's My Tofu?",
     "role": "Lead Developer",
     "description": "A shopping list web application for price comparison across stores in Osaka, Nishi-ku.",
-    "img_path": "./wmt/Tofu Logo.png",
+    "img_path": "./wmt/wmt_logo.png",
     "links": {
       "github": "https://github.com/virfortis-rgb/wheres-my-tofu",
       "live": "https://www.wheresmytofu.me/"
     },
-    "stack": ["Ruby", "Ruby on Rails", "PostgreSQL", "JavaScript", "Heroku", "HTML", "CSS"],
+    "stack": ["Ruby", "Ruby on Rails", "PostgreSQL",
+              "JavaScript", "Heroku", "HTML", "CSS",
+              "Bootstrap", "Mapbox", "Cloudinary", "Gemini"],
     "features": [
-      "Real-time price comparison",
-      "Location-based store filtering"
+      "AI integration",
+      "scanning flyers andadding data to the database"
     ]
   },
   {
     "id": "mai-kusuri",
     "title": "Mai Kusuri",
     "role": "Lead Developer",
-    "description": "Enter project description here.",
+    "description": "An LLM-integrated app that helps English speaking foreigners in Japan finds OTC medication.",
     "img_path": "./default.png",
     "links": {
-      "github": "https://github.com/example/repo",
-      "live": "https://example.com"
+      "github": "https://github.com/virfortis-rgb/mai-kusuri",
+      "live": "https://mai-kusuri-6f1cdb2a3fdb.herokuapp.com/users/sign_in"
     },
-    "stack": ["Ruby on Rails", "PostgreSQL", "Bootstrap"],
+    "stack": ["Ruby", "Ruby on Rails", "PostgreSQL",
+              "JavaScript", "Heroku", "HTML", "CSS",
+              "Bootstrap", "Mapbox", "Cloudinary", "Gemini"],
     "features": [
-      "Real-time price comparison",
-      "Location-based store filtering"
+      "chat feature"
     ]
   },
   {
     "id": "in-die-begin",
-    "title": "In Die Begin",
+    "title": "in die begin",
     "role": "Lead Developer",
     "description": "Afrikaans language acquisition through comprehensible input and storytelling.",
     "img_path": "./in_die_begin/indb.jpg",
@@ -41,10 +44,9 @@
       "github": "https://github.com/example/repo",
       "live": "https://example.com"
     },
-    "stack": ["Ruby on Rails", "PostgreSQL", "Cloudinary"],
-    "features": [
-      "Real-time price comparison",
-      "Location-based store filtering"
-    ]
+    "stack": ["Ruby", "Ruby on Rails", "PostgreSQL",
+              "JavaScript", "Heroku", "HTML", "CSS",
+              "Bootstrap"],
+    "features": []
   }
 ]

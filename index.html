@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Damien Joubert</title>
     <link rel="stylesheet" href="dvf.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap" rel="stylesheet">
@@ -31,187 +33,46 @@
 
   <div class="container mb-5">
     <h1 class="mb-5">Projects</h1>
-
-  <div class="row g-4 mb-2">
-
-    <div class="col-12 col-md-6">
-      <div class="card h-100">
-        <div>
-          <img src="wmt/Tofu Logo.png" alt="Where's My Tofu" class="project-img">
-        </div>
-        <div class="card-body d-flex flex-column justify-content-between">
-          <div class="pb-2">
-            <a href="https://github.com/virfortis-rgb/wheres-my-tofu" target="_blank"><i class="fa-brands fa-square-github"></i></a>
-            <a href="https://www.wheresmytofu.me/" target="_blank"><i class="fa-solid fa-link"></i></a>
-          </div>
+    <div class="row justify-content-center gap-4 m-2">
+      <template id="projet-card-template">
+        <div class="card col-sm-12 col-md-9 col-lg-4">
           <div>
-            <h3 class="m-2">Where's My Tofu</h3>
-            <p class="text-start">
-              WMT is a shopping list web application that lets you compare the prices of your groceries, so that you can choose the best price for your groceries. WMT allows you to compare prices from different stores in the Osaka, Nishi-ku area.
-            </p>
+            <img src="wmt/Tofu Logo.png" alt="Where's My Tofu" class="project-img mb-3">
+            <div class="pb-2">
+              <a class="gh-repo" href="https://github.com/virfortis-rgb/wheres-my-tofu" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+              <a class="site" href="https://www.wheresmytofu.me/" target="_blank"><i class="fa-solid fa-link"></i></a>
+            </div>
           </div>
-          <div class="mt-2">
-            <i class="devicon-rails-plain fs-5" style="color: #CC0000"></i>
-            <i class="devicon-postgresql-plain fs-5" style="color: #336791"></i>
-            <i class="devicon-javascript-plain fs-5" style="color: #F0DB4F"></i>
-            <i class="devicon-html5-plain fs-5" style="color: #E54D26"></i>
-            <i class="devicon-css3-plain fs-5" style="color: #3D8FC6"></i>
-            <i class="devicon-bootstrap-plain fs-5" style="color: #59407F"></i>
-            <i class="devicon-heroku-plain fs-5" style="color: #6762A6"></i>
-          </div>
-        </div>
-      </div>
-    </div>
+          <div class="card-body d-flex flex-column justify-content-between pt-0">
 
-    <div class="col-12 col-md-6 mb-3">
-      <div class="card h-100">
-        <div>
-          <img src="default.png" alt="Mai Kusuri" class="project-img">
-        </div>
-        <div class="card-body d-flex flex-column justify-content-between">
-          <div class="pb-2">
-            <a href="https://github.com/virfortis-rgb/mai-kusuri" target="_blank"><i class="fa-brands fa-square-github"></i></a>
-            <a href="https://mai-kusuri-6f1cdb2a3fdb.herokuapp.com/" target="_blank"><i class="fa-solid fa-link"></i></a>
-          </div>
-          <div>
-            <h3 class="m-2">Mai Kusuri</h3>
-            <p class="text-start">
-              An LLM-integrated app that helps English speaking foreigners in Japan finds OTC medication.
-            </p>
-          </div>
-          <div class="mt-2">
-            <i class="devicon-rails-plain fs-5" style="color: #CC0000"></i>
-            <i class="devicon-postgresql-plain fs-5" style="color: #336791"></i>
-            <i class="devicon-javascript-plain fs-5" style="color: #F0DB4F"></i>
-            <i class="devicon-html5-plain fs-5" style="color: #E54D26"></i>
-            <i class="devicon-css3-plain fs-5" style="color: #3D8FC6"></i>
-            <i class="devicon-bootstrap-plain fs-5" style="color: #59407F"></i>
-            <i class="devicon-heroku-plain fs-5" style="color: #6762A6"></i>
+            <div class="text-start">
+              <h3 class="my-2 title">Where's My Tofu</h3>
+              <span class="badge text-bg-secondary role mb-2">@ team leader</span>
+              <p class="text-start description">
+                WMT is a shopping list web application that lets you compare the prices of your groceries, so that you can choose the best price for your groceries. WMT allows you to compare prices from different stores in the Osaka, Nishi-ku area.
+              </p>
+              <div class="features mb-3 text-start"></div>
+              <h6>Tech Stack: </h6>
+              <div>
+                <span class="stack"></span>
+                <!-- <i class="devicon-rails-plain fs-5" style="color: #CC0000"></i>
+                <i class="devicon-postgresql-plain fs-5" style="color: #336791"></i>
+                <i class="devicon-javascript-plain fs-5" style="color: #F0DB4F"></i>
+                <i class="devicon-html5-plain fs-5" style="color: #E54D26"></i>
+                <i class="devicon-css3-plain fs-5" style="color: #3D8FC6"></i>
+                <i class="devicon-bootstrap-plain fs-5" style="color: #59407F"></i>
+                <i class="devicon-heroku-plain fs-5" style="color: #6762A6"></i> -->
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-
-  </div>
-
-  <div class="row g-4 mb-3">
-
-  <div class="col-12 col-md-6">
-      <div class="card h-100">
-        <div class="mt-3">
-          <img src="in_die_begin/indb.jpg" alt="in die begin" class="project-img rounded-circle">
-        </div >
-        <div class="card-body d-flex flex-column justify-content-between">
-          <div class="pb-2">
-            <a href="https://github.com/virfortis-rgb/in-die-begin" target="_blank"><i class="fa-brands fa-square-github"></i></a>
-            <a href="https://idb.damienus.me/" target="_blank"><i class="fa-solid fa-link"></i></a>
-          </div>
-          <div>
-            <h3 class="m-2">In die Begin</h3>
-            <p class="text-start">
-              A place for reading and practicing Afrikaans online by enjoying stories.
-            </p>
-          </div>
-          <div class="mt-2">
-            <i class="devicon-rails-plain fs-5" style="color: #CC0000"></i>
-            <i class="devicon-postgresql-plain fs-5" style="color: #336791"></i>
-            <i class="devicon-javascript-plain fs-5" style="color: #F0DB4F"></i>
-            <i class="devicon-html5-plain fs-5" style="color: #E54D26"></i>
-            <i class="devicon-css3-plain fs-5" style="color: #3D8FC6"></i>
-            <i class="devicon-bootstrap-plain fs-5" style="color: #59407F"></i>
-            <i class="devicon-heroku-plain fs-5" style="color: #6762A6"></i>
-          </div>
-        </div>
-      </div>
-  </div>
-
-
-  <div class="col-12 col-md-6">
-    <div class="card h-100">
-      <div class="mt-3">
-        <img src="./laf.png" alt="Lectorum Antiquorum Forum" class="project-img rounded-circle">
-      </div >
-      <div class="card-body d-flex flex-column justify-content-between">
-        <div class="pb-2">
-          <a href="https://github.com/virfortis-rgb/laf" target="_blank"><i class="fa-brands fa-square-github"></i></a>
-          <a href="https://virfortis-rgb.github.io/laf/" target="_blank"><i class="fa-solid fa-link"></i></a>
-        </div>
-        <div>
-          <h3 class="m-2">
-            LAF
-            <br>
-            Lectorum Antiquorum Forum
-          </h3>
-          <p class="text-start">
-            Resources for my ancient reading group.
-          </p>
-        </div>
-        <div class="mt-2">
-          <i class="devicon-html5-plain fs-5" style="color: #E54D26"></i>
-          <i class="devicon-css3-plain fs-5" style="color: #3D8FC6"></i>
-          <i class="devicon-bootstrap-plain fs-5" style="color: #59407F"></i>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="row g-4 mb-3">
-  <div class="col-12 col-md-6">
-      <div class="card h-100">
-        <div>
-          <img src="default.png" alt="Wat wil Koos kyk?" class="project-img">
-        </div>
-        <div class="pb-2">
-          <a href="https://github.com/virfortis-rgb/wat-wil-koos-kyk" target="_blank"><i class="fa-brands fa-square-github"></i></a>
-          <a href="https://virfortis-rgb.github.io/wat-wil-koos-kyk/" target="_blank"><i class="fa-solid fa-link"></i></a>
-        </div>
-        <div class="card-body d-flex flex-column justify-content-between">
-          <div>
-            <h3 class="m-2">Wat wil Koos kyk?</h3>
-            <p class="text-start">
-              A small project build to help my father, Koos, decide what movie to watch.
-              This pet project only uses the three pillars of web building; HTML, CSS, and JavaScript.
-            </p>
-          </div>
-          <div class="mt-2">
-            <i class="devicon-javascript-plain fs-5" style="color: #F0DB4F"></i>
-            <i class="devicon-html5-plain fs-5" style="color: #E54D26"></i>
-            <i class="devicon-css3-plain fs-5" style="color: #3D8FC6"></i>
-            <i class="devicon-bootstrap-plain fs-5" style="color: #59407F"></i>
-          </div>
-        </div>
-      </div>
-  </div>
-
-  <div class="col-12 col-md-6 d-none">
-      <div class="card h-100">
-        <div>
-          <img src="default.png" alt="Wat wil Koos kyk?" class="project-img">
-        </div>
-        <div class="card-body d-flex flex-column justify-content-between">
-          <div>
-            <h3 class="m-2">Wat wil Koos kyk?</h3>
-            <p class="text-start">
-              A small project build to help my father, Koos, decide what movie to watch.
-              This pet project only uses the three pillars of web building; HTML, CSS, and JavaScript.
-            </p>
-          </div>
-          <div>
-            <img src="" alt="">
-          </div>
-          <div class="pb-2">
-            <a href="https://github.com/virfortis-rgb/wat-wil-koos-kyk" target="_blank"><i class="fa-brands fa-square-github"></i></a>
-          </div>
-        </div>
-      </div>
-  </div>
-
+      </template>
   </div>
 
 </div>
     <footer style="margin-top: 12rem;">
     </footer>
     <script src="https://kit.fontawesome.com/3b2dbd6bd5.js" crossorigin="anonymous"></script>
+    <script type="module" src="./index.js"></script>
   </body>
 </html>

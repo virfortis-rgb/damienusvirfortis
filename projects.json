@@ -1,0 +1,78 @@
+[
+  {
+    "id": "wheres-my-tofu",
+    "title": "Where's My Tofu?",
+    "role": "Lead Developer",
+    "description": "A shopping list web application for price comparison across stores in Osaka, Nishi-ku.",
+    "img_path": "./wmt/wmt_logo.png",
+    "links": {
+      "github": "https://github.com/virfortis-rgb/wheres-my-tofu",
+      "live": "https://www.wheresmytofu.me/"
+    },
+    "stack": ["Ruby", "Ruby on Rails", "PostgreSQL",
+              "JavaScript", "Heroku", "HTML", "CSS",
+              "Bootstrap", "Mapbox", "Cloudinary", "Gemini"],
+    "features": [
+      "AI integration",
+      "scanning flyers andadding data to the database"
+    ]
+  },
+  {
+    "id": "mai-kusuri",
+    "title": "Mai Kusuri",
+    "role": "Lead Developer",
+    "description": "An LLM-integrated app that helps English speaking foreigners in Japan finds OTC medication.",
+    "img_path": "./default.png",
+    "links": {
+      "github": "https://github.com/virfortis-rgb/mai-kusuri",
+      "live": "https://mai-kusuri-6f1cdb2a3fdb.herokuapp.com/users/sign_in"
+    },
+    "stack": ["Ruby", "Ruby on Rails", "PostgreSQL",
+              "JavaScript", "Heroku", "HTML", "CSS",
+              "Bootstrap", "Mapbox", "Cloudinary", "Gemini"],
+    "features": [
+      "chat feature"
+    ]
+  },
+  {
+    "id": "in-die-begin",
+    "title": "in die begin",
+    "role": "Lead Developer",
+    "description": "Afrikaans language acquisition through comprehensible input and storytelling.",
+    "img_path": "./in_die_begin/indb.jpg",
+    "links": {
+      "github": "https://github.com/example/repo",
+      "live": "https://example.com"
+    },
+    "stack": ["Ruby", "Ruby on Rails", "PostgreSQL",
+              "JavaScript", "Heroku", "HTML", "CSS",
+              "Bootstrap"],
+    "features": []
+  },
+  {
+    "id": "laf",
+    "title": "Lectorum Antiquorum Forum",
+    "role": "Lead Developer",
+    "description": "A website for my friends and I to keep track of what we're reading.",
+    "img_path": "./laf.png",
+    "links": {
+      "github": "https://github.com/virfortis-rgb/laf",
+      "live": "https://virfortis-rgb.github.io/laf/"
+    },
+    "stack": ["HTML", "CSS", "Bootstrap"],
+    "features": []
+  },
+  {
+    "id": "wat-wil-koos-kyk",
+    "title": "Wat wil Koos kyk?",
+    "role": "Lead Developer",
+    "description": "A website to help my father choose a movie to watch for movie night. He's name is Koos.",
+    "img_path": "./default.png",
+    "links": {
+      "github": "https://github.com/virfortis-rgb/wat-wil-koos-kyk",
+      "live": "https://virfortis-rgb.github.io/wat-wil-koos-kyk/"
+    },
+    "stack": ["JavaScript", "HTML", "CSS", "Bootstrap"],
+    "features": []
+  }
+]

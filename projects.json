@@ -1,0 +1,50 @@
+[
+  {
+    "id": "wheres-my-tofu",
+    "title": "Where's My Tofu?",
+    "role": "Lead Developer",
+    "description": "A shopping list web application for price comparison across stores in Osaka, Nishi-ku.",
+    "img_path": "./wmt/Tofu Logo.png",
+    "links": {
+      "github": "https://github.com/virfortis-rgb/wheres-my-tofu",
+      "live": "https://www.wheresmytofu.me/"
+    },
+    "stack": ["Ruby", "Ruby on Rails", "PostgreSQL", "JavaScript", "Heroku", "HTML", "CSS"],
+    "features": [
+      "Real-time price comparison",
+      "Location-based store filtering"
+    ]
+  },
+  {
+    "id": "mai-kusuri",
+    "title": "Mai Kusuri",
+    "role": "Lead Developer",
+    "description": "Enter project description here.",
+    "img_path": "./default.png",
+    "links": {
+      "github": "https://github.com/example/repo",
+      "live": "https://example.com"
+    },
+    "stack": ["Ruby on Rails", "PostgreSQL", "Bootstrap"],
+    "features": [
+      "Real-time price comparison",
+      "Location-based store filtering"
+    ]
+  },
+  {
+    "id": "in-die-begin",
+    "title": "In Die Begin",
+    "role": "Lead Developer",
+    "description": "Afrikaans language acquisition through comprehensible input and storytelling.",
+    "img_path": "./in_die_begin/indb.jpg",
+    "links": {
+      "github": "https://github.com/example/repo",
+      "live": "https://example.com"
+    },
+    "stack": ["Ruby on Rails", "PostgreSQL", "Cloudinary"],
+    "features": [
+      "Real-time price comparison",
+      "Location-based store filtering"
+    ]
+  }
+]

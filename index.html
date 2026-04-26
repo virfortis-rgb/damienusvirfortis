@@ -59,22 +59,26 @@
         </div>
       </template>
 
-      <div class="card col-sm-12 col-md-6 col-lg-4">
+      <div id="projet-card-template"  class="card col-sm-12 col-md-6 col-lg-4">
         <div>
           <img src="wmt/Tofu Logo.png" alt="Where's My Tofu" class="project-img">
         </div>
         <div class="card-body d-flex flex-column justify-content-between">
           <div class="pb-2">
-            <a href="https://github.com/virfortis-rgb/wheres-my-tofu" target="_blank"><i class="fa-brands fa-square-github"></i></a>
-            <a href="https://www.wheresmytofu.me/" target="_blank"><i class="fa-solid fa-link"></i></a>
+            <a id="gh" href="https://github.com/virfortis-rgb/wheres-my-tofu" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+            <a id="site" href="https://www.wheresmytofu.me/" target="_blank"><i class="fa-solid fa-link"></i></a>
           </div>
           <div>
-            <h3 class="m-2">Where's My Tofu</h3>
-            <p class="text-start">
+            <h3 id="title" class="m-2">Where's My Tofu</h3>
+            <div>
+              <span id="role" class="badge text-bg-secondary">@ team leader</span>
+              <span id="role" class="badge text-bg-success">features</span>
+            </div>
+            <p id="description" class="text-start">
               WMT is a shopping list web application that lets you compare the prices of your groceries, so that you can choose the best price for your groceries. WMT allows you to compare prices from different stores in the Osaka, Nishi-ku area.
             </p>
           </div>
-          <div class="mt-2">
+          <div id="stack" class="mt-2">
             <i class="devicon-rails-plain fs-5" style="color: #CC0000"></i>
             <i class="devicon-postgresql-plain fs-5" style="color: #336791"></i>
             <i class="devicon-javascript-plain fs-5" style="color: #F0DB4F"></i>

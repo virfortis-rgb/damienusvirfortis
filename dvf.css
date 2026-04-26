@@ -19,6 +19,10 @@ i {
   width: 8rem;
 }
 
+.card {
+  box-shadow: 0 0 0.3rem 0.3rem;
+}
+
 footer {
   background-image: url("mountain-footer.png");
   background-size: cover;

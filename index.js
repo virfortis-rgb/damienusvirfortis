@@ -17,7 +17,7 @@ data.forEach((project) => {
   if (project.features != null) {
     project.features.forEach((feature) => {
       const span = document.createElement('span');
-      span.classList.add('badge', 'text-bg-success', 'feature', 'me-1');
+      span.classList.add('badge', 'text-bg-success', 'feature', 'text-wrap', 'me-1', 'mb-1');
       span.textContent = feature;
       featuresContainer.appendChild(span);
     });

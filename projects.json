@@ -22,9 +22,9 @@
     "title": "KiFor Match",
     "role": "team member",
     "description": "An web app that matches charities and donors",
-    "img_path": "./default.png",
+    "img_path": "./kifor.png",
     "links": {
-      "github": "gh repo clone virfortis-rgb/damienusvirfortis/",
+      "github": "https://github.com/kwood6319/kifor-match/",
       "live": "#"
     },
     "stack": ["JavaScript", "HTML", "CSS", "Bootstrap"],

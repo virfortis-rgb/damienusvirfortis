@@ -18,6 +18,32 @@
     ]
   },
   {
+    "id": "ki-for-match",
+    "title": "KiFor Match",
+    "role": "team member",
+    "description": "An web app that matches charities and donors",
+    "img_path": "./default.png",
+    "links": {
+      "github": "gh repo clone virfortis-rgb/damienusvirfortis/",
+      "live": "#"
+    },
+    "stack": ["JavaScript", "HTML", "CSS", "Bootstrap"],
+    "features": []
+  },
+  {
+    "id": "connect-pet",
+    "title": "Connect Pet",
+    "role": "team member",
+    "description": "A Ruby on Rails platform for pet health management and veterinary clinic connections, featuring AI-powered health reports.",
+    "img_path": "./default.png",
+    "links": {
+      "github": "https://github.com/renatoshimabukuro/connectPet/",
+      "live": "www.connectpet.online/"
+    },
+    "stack": ["JavaScript", "HTML", "CSS", "Bootstrap"],
+    "features": []
+  },
+  {
     "id": "mai-kusuri",
     "title": "Mai Kusuri",
     "role": "Lead Developer",
@@ -71,32 +97,6 @@
     "links": {
       "github": "https://github.com/virfortis-rgb/wat-wil-koos-kyk",
       "live": "https://virfortis-rgb.github.io/wat-wil-koos-kyk/"
-    },
-    "stack": ["JavaScript", "HTML", "CSS", "Bootstrap"],
-    "features": []
-  },
-  {
-    "id": "ki-for-match",
-    "title": "KiFor Match",
-    "role": "team member",
-    "description": "An web app that matches charities and donors",
-    "img_path": "./default.png",
-    "links": {
-      "github": "gh repo clone virfortis-rgb/damienusvirfortis",
-      "live": "#"
-    },
-    "stack": ["JavaScript", "HTML", "CSS", "Bootstrap"],
-    "features": []
-  },
-  {
-    "id": "ki-for-match",
-    "title": "KiFor Match",
-    "role": "team member",
-    "description": "An web app that matches charities and donors",
-    "img_path": "./default.png",
-    "links": {
-      "github": "gh repo clone virfortis-rgb/damienusvirfortis",
-      "live": "#"
     },
     "stack": ["JavaScript", "HTML", "CSS", "Bootstrap"],
     "features": []

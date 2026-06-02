@@ -75,4 +75,17 @@
     "stack": ["JavaScript", "HTML", "CSS", "Bootstrap"],
     "features": []
   }
+  {
+    "id": "ki-for-match",
+    "title": "KiFor Match",
+    "role": "team member",
+    "description": "An web app that matches charities and donors",
+    "img_path": "./default.png",
+    "links": {
+      "github": "gh repo clone virfortis-rgb/damienusvirfortis",
+      "live": "#"
+    },
+    "stack": ["JavaScript", "HTML", "CSS", "Bootstrap"],
+    "features": []
+  }
 ]

@@ -27,7 +27,9 @@
       "github": "https://github.com/kwood6319/kifor-match/",
       "live": "#"
     },
-    "stack": ["JavaScript", "HTML", "CSS", "Bootstrap"],
+    "stack": ["Ruby", "Ruby on Rails", "PostgreSQL",
+              "JavaScript", "Heroku", "HTML", "CSS",
+              "Bootstrap"],
     "features": []
   },
   {
@@ -41,7 +43,9 @@
       "live": "www.connectpet.online/"
     },
     "stack": ["JavaScript", "HTML", "CSS", "Bootstrap"],
-    "features": []
+    "features": [
+      "AI-generated summary sheets"
+    ]
   },
   {
     "id": "mai-kusuri",

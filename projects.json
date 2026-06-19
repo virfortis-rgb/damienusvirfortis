@@ -27,8 +27,10 @@
       "github": "https://github.com/kwood6319/kifor-match/",
       "live": "#"
     },
-    "stack": ["JavaScript", "HTML", "CSS", "Bootstrap"],
-    "features": []
+    "stack": ["Ruby", "Ruby on Rails", "PostgreSQL",
+              "JavaScript", "Heroku", "HTML", "CSS",
+              "Bootstrap"],
+    "features": ["dashboards"]
   },
   {
     "id": "connect-pet",

@@ -1,0 +1,13 @@
+[
+  {
+    "id": "verborum-ter",
+    "title": "Verborum Iter",
+    "description": "A game about a duck that has to figure our how to become human again.",
+    "picture_paths": [],
+    "tech stack": ["ruby", "ruby2d", "Piskel"],
+    "links": {
+        "github": "",
+        "itch": ""
+    }
+  }
+]

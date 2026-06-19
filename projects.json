@@ -30,7 +30,7 @@
     "stack": ["Ruby", "Ruby on Rails", "PostgreSQL",
               "JavaScript", "Heroku", "HTML", "CSS",
               "Bootstrap"],
-    "features": []
+    "features": ["dashboards"]
   },
   {
     "id": "connect-pet",
@@ -43,9 +43,7 @@
       "live": "www.connectpet.online/"
     },
     "stack": ["JavaScript", "HTML", "CSS", "Bootstrap"],
-    "features": [
-      "AI-generated summary sheets"
-    ]
+    "features": []
   },
   {
     "id": "mai-kusuri",
